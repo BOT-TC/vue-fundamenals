@@ -9,4 +9,12 @@ describe('TheWelcome', () => {
     const wrapper = mount(TheWelcome)
     expect(wrapper.text()).toContain('Welcome to OLS')
   })
+  it('renders properly', () => {
+    const wrapper = mount(TheWelcome)
+    expect(wrapper.text()).toContain('Open Learning Server')
+  })
+  it('renders properly again', () => {
+    const wrapper = mount(TheWelcome)
+    expect(wrapper.text()).toContain('Open Learning Server')
+  })
 })
